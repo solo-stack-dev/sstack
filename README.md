@@ -7,7 +7,8 @@ agents that support the `SKILL.md` format.
 
 | Skill | What it does |
 | --- | --- |
-| [`decision-helper`](skills/decision-helper/SKILL.md) | Gets independent opinions on a decision from a panel of models, then decides with you. Say "decision helper" (add "light" for the lighter panel). |
+| [`decision-helper`](skills/decision-helper/SKILL.md) | Gets independent opinions on a decision from a panel of models, then decides with you. Say "decision helper" (add "light" for the lighter panel, "ideas" for the wide idea panel). |
+| [`full-send`](skills/full-send/SKILL.md) | Ships the current change straight to `main`, with a quick GPT Sol review first only if unsure. Say "full send". |
 
 ## Install
 
@@ -34,8 +35,8 @@ skills/
 
 ## Notes
 
-`decision-helper` uses T3 Code's orchestration tools
-(`orchestrator_capabilities`, `delegate_task`) to run its panel across
+`decision-helper` and `full-send` use T3 Code's orchestration tools
+(`orchestrator_capabilities`, `delegate_task`) to run delegates across
 providers.
 
 ## License
